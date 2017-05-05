@@ -1,7 +1,6 @@
-package test;
 
+import domain.User;
 import org.junit.Test;
-import test.domain.User;
 
 import java.util.HashSet;
 import java.util.Set;

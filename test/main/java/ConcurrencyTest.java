@@ -1,4 +1,3 @@
-package test;
 
 /**
  * 多线程一定快吗
@@ -9,9 +8,12 @@ package test;
  */
 public class ConcurrencyTest {
 
-    private static final long count = 100001;
+    private static final long count = Long.MAX_VALUE;
 
     public static void main(String[] args) throws InterruptedException {
+        DynamicExecutorFactory.getExecutorService(true,10);
+
+
         concurrency();
         serial();
     }

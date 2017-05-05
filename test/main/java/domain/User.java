@@ -1,5 +1,4 @@
-package test.domain;
-
+package domain;
 /**
  * User: shijingui
  * Date: 2016/10/27
